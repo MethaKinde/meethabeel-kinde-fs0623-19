@@ -2,3 +2,45 @@
 body {
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
+
+/* HEADER */
+header {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 7%;
+}
+
+header img {
+    margin-right: auto;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+header button {
+    margin-left: 20px;
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+
+#mainTitle svg {
+    display: none;
+}
